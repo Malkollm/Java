@@ -12,12 +12,11 @@ public class Example2 {
         //а и b диапазон чисел, c рандомное целое число
         Random random = new Random();
 
-        int[] array = new int[20];
+        int[] array = new int[10];
         System.out.println("\n Массив выведенный через метод: ");
         for (int i = 0; i < array.length; i++) {
             //массив = от 1 до 4 (рандомно)
-            array[i] = a + random.nextInt(b);
-            System.out.print(array[i] + " ");
+            array[i] = random.nextInt(15);
         }
         return ;
     }
