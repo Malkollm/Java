@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.Random;
-
 /**
  * 21.02.16
  * Фаткуллин Марсель
@@ -21,7 +19,11 @@ public class Example4 {
         //Вывод массива
         for (int i = 0; i < arr.length; i++, System.out.println()) {
             for (int j = 0; j < arr[i].length; j++) {
-                System.out.print(arr[i][j] + " ");
+                if (arr[i][j] % 2 != 0){
+                    System.out.print(" " + arr[i][j] + " ");
+                } else {
+                    System.out.print(" " + "-" + " ");
+                }
             }
         }
     }
