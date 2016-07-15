@@ -24,6 +24,7 @@ public class Example3 {
         int[] array = Main.rand_mass(1, 3); //присваиваем массив из предыдущей задачи
         System.out.println("Массив " + Arrays.toString(array)); //обращение к классу Main и методу rand_numb
         buble_sort(array); //вызываем метод
+        System.out.print("Отсортированно ");
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
         }
